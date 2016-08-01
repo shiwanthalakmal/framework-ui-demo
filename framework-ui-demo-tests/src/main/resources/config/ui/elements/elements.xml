@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config-pages>
+<page name="PuppyAdoptPage">
+    <elements>
+        <element name="chkOption" findBy="xpath">//input[@id='collar']</element>
+        <element name="btnCompletion" findBy="xpath">//input[@value='Complete the Adoption']</element>
+    </elements>
+</page>
+<page name="PuppyCompletePage">
+    <elements>
+        <element name="placeOrder" findBy="xpath" default="true">//input[@name='commit']</element>
+        <element name="orderName" findBy="xpath">//input[@id='order_name']</element>
+        <element name="orderAddress" findBy="id">order_address</element>
+        <element name="orderEmail" findBy="xpath">//input[@id='order_email']</element>
+        <element name="paymentType" findBy="id">order_pay_type</element>
+    </elements>
+</page>
+<page name="PuppyHomePage">
+    <elements>
+        <element name="pageHeader" findBy="xpath" default="true">//div[@id='content']/h1</element>
+        <element name="viewButton" findBy="xpath" default="true">//div[@id='content']/div[2]/div/div[4]/form/div/input</element>
+    </elements>
+</page>
+<page name="PuppyViewPage">
+    <elements>
+        <element name="adoptMeButton" findBy="xpath" default="true">//input[@class='rounded_button']</element>
+        <element name="backToList" findBy="xpath" default="true">//div[@id='content']/a</element>
+    </elements>
+</page>
+</config-pages>
