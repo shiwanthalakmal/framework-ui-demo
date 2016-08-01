@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Puppy[Home] - BDD" verbose="1" configfailurepolicy="continue">
+    <test name="Home">
+        <packages>
+            <package name="com.framework.qa.test.behaviour.testPlans.*"/>
+        </packages>
+    </test>
+</suite>

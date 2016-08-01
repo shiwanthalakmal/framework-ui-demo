@@ -3,6 +3,7 @@ package com.framework.qa.test.behaviour.testPlans;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
@@ -13,5 +14,5 @@ import org.junit.runner.RunWith;
         ,tags = {"@Regression"}
         ,format = {"pretty","html:target/html","json:target/cucumber.json"}
 )
-public class BAT_HomeCukes {
+public class BAT_HomeCukes extends AbstractTestNGCucumberTests{
 }
