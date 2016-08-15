@@ -300,7 +300,7 @@
                             <testFailureIgnore>true</testFailureIgnore>
                             <skipTests>false</skipTests>
                             <suiteXmlFiles>
-                                <suiteXmlFile>src/main/resources/features/BDD_HomeTest.xml</suiteXmlFile>
+                                <suiteXmlFile>src/main/resources/testplans/BDD_HomeTest.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>

@@ -39,12 +39,14 @@ public class PuppyAdoptPage extends BasicPage {
     }
 
     public PuppyAdoptPage step_Check_Price_Option() throws ScriptException, ApplicationException {
+        test_step_initiation();
         chkOption.check();
         log.info("Checked Puppy Category");
         return this;
     }
 
     public PuppyCompletePage step_Click_Complete_Flow_Button() throws FrameworkException {
+        test_step_initiation();
         btnCompletion.click();
         log.info("Move To Adoption Completion Flow");
         return new PuppyCompletePage(driver);
