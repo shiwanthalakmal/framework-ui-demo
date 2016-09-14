@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="com.framework.qa.uicore.listeners.TestNGListener"/>
     </listeners>
-    <test name="Home">
+    <test name="Login">
         <groups>
             <define name="all">
                 <include name="BAT"/>

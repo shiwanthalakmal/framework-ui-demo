@@ -16,7 +16,6 @@
         <classes>
             <class name="com.framework.qa.test.traditional.DemoLoginTest"/>
             <class name="com.framework.qa.test.traditional.DemoHomeTest"/>
-
         </classes>
     </test>
 </suite>
