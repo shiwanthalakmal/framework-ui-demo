@@ -46,7 +46,8 @@ public class PuppyHomePage extends BasicPage{
      */
     public void validate_Page_Header_Title(String expected) throws ScriptException, ApplicationException {
         test_step_initiation();
-        Assert.assertEquals(expected, pageHeader.getText());
+        verifyEquals(pageHeader.getText(),expected, "Home Page is not valid !");
+        checkForVerificationErrors();
         log.info("Validate ! Page Header Title Successfully.");
     }
 
