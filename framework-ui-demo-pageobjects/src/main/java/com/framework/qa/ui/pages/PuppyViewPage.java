@@ -45,8 +45,6 @@ public class PuppyViewPage extends BasicPage{
      */
     public PuppyHomePage step_Return_To_List_Page() throws FrameworkException {
         test_step_initiation();
-        verifyEquals(driver.getTitle(),"fsdf","Invalid Page !");
-        checkForVerificationErrors();
         log.info("Click Return To List Icon");
         return new PuppyHomePage(this.driver);
     }

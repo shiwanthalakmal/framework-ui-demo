@@ -11,6 +11,6 @@ public class DemoHomeTest extends TestBase{
     public void test_Verify_The_Puppy_Home() throws FrameworkException {
         new PuppyHomePage(getDriver()).
                 step_Click_Puppy_View().
-                step_Return_To_List_Page();
+                step_Return_To_List_Page().validate_Page_Header_Title("Sally\'s Puppy Adoption Agency.");
     }
 }
